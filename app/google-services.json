@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49973605599",
+    "firebase_url": "https://nastava-3ae81.firebaseio.com",
+    "project_id": "nastava-3ae81",
+    "storage_bucket": "nastava-3ae81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49973605599:android:a5f4e9ff2eeaaa330fe56a",
+        "android_client_info": {
+          "package_name": "com.example.chc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49973605599-pq1kjin9gm22spafp4k5eisjbl3kns2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEut4APU77Qx17OWAH0ffvMVnuro4FZ_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49973605599-pq1kjin9gm22spafp4k5eisjbl3kns2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/obrazac_korisnik"
+        android:icon="@drawable/pen"
+        android:title="Obrazac" />
+    <item
+        android:id="@+id/mojeprijave_korisnik"
+        android:icon="@drawable/my"
+        android:title="Moje prijave" />
+</menu>

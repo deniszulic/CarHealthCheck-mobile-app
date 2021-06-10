@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".korisnik_pocetna">
+
+    <Button
+        android:id="@+id/odjavi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@animator/my_button_animator"
+        android:text="odjava" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/ime_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ime"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/prezime_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Prezime"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/brtel_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Broj telefona"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/brtel2_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Broj telefona 2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/grad_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Grad prebivališta"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/adresa_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Adresa"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/zip_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Poštanski broj"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/kilometri_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Prijeđeni kilometri"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/godiste_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Godište"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/marka_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Marka auta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odaberite radionu:"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/selected_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/pula_korisnikpocetna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Pula" />
+
+                <RadioButton
+                    android:id="@+id/zagreb_korisnikpocetna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zagreb" />
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/opis_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Opis kvara" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odaberite datum dolaska u radionu"
+                android:textSize="18sp" />
+
+            <CalendarView
+                android:id="@+id/dolazak_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/vrijeme_korisnikpocetna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vrijeme dolaska (h:min)"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="odaberi sliku" />
+
+            <ImageView
+                android:id="@+id/mimageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <Button
+                android:id="@+id/uploadimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pošalji" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
